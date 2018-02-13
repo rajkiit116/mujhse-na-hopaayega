@@ -83,5 +83,5 @@ voiceSelect.onchange = function(){
 
 $( document ).ready(function() {
   console.log( "ready!" );
-  inputTxt.remove();rate.remove();rateValue.remove();pitch.remove();pitchValue.remove();voiceSelect.remove();
+  inputTxt.remove();rate.remove();rateValue.remove();pitch.remove();pitchValue.remove();voiceSelect.hide();
 });
