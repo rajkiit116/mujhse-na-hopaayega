@@ -193,7 +193,7 @@ label {
       width: 10px;
       height: 10px;
   
-      position: absolute;
+     
       right: 14px;
       top: 12px;    
       
@@ -204,7 +204,6 @@ label {
       font-size: 26px;
   }
   #bottomright {
-    position: absolute;
     bottom: 8px;
     right: 16px;
     font-size: 18px;
