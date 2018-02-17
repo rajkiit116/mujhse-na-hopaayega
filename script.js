@@ -41,7 +41,7 @@ function speak(){
         return;
     }
     if (inputTxt.value !== '') {
-    var utterThis = new SpeechSynthesisUtterance('mujhse naa ho paayegaa');
+    var utterThis = new SpeechSynthesisUtterance('sab puchenge bhaiya se');
     utterThis.onend = function (event) {
         console.log('SpeechSynthesisUtterance.onend');
     }
