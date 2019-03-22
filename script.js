@@ -41,7 +41,7 @@ function speak(){
         return;
     }
     if (inputTxt.value !== '') {
-    var utterThis = new SpeechSynthesisUtterance('sab puchenge bhaiya se');
+    var utterThis = new SpeechSynthesisUtterance('paad expert Sonu kumar');
     utterThis.onend = function (event) {
         console.log('SpeechSynthesisUtterance.onend');
     }
